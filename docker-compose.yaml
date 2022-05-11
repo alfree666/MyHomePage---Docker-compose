@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+
+  mhp:
+    image: ghcr.io/ajnart/mhp
+    ports:
+      - '8200:80'
+    restart: unless-stopped
+
+
+    
